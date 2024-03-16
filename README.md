@@ -53,6 +53,11 @@ Call to authentication endpoint with Postman, which returns the JWT Token:
 
 ![ScreenshotPostmanAuthenticationEndpoint](screenshots/authentication_endpoint.png)
 
+--------------------------------------------------------------------------------------------------------------------
+
+Call to authentication endpoint with Postman, which returns HTTP 401 when authentication failed:
+
+![ScreenshotPostmanAuthenticationEndpoint](screenshots/bad_credentials.png)
 
 
 --------------------------------------------------------------------------------------------------------------------
