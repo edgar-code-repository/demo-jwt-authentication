@@ -3,7 +3,9 @@ DEMO JWT AUTHENTICATION
 
 Application created with Spring Boot 3.2.3 and Java 17.
 
-This Rest API returns a JWT Token when a user authenticates.
+This Rest API returns a JWT Token when a user authenticates successfully.
+
+![ScreenshotSpringAndJWT](screenshots/spring-and-jwt.png)
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -55,7 +57,7 @@ Call to authentication endpoint with Postman, which returns the JWT Token:
 
 --------------------------------------------------------------------------------------------------------------------
 
-Call to authentication endpoint with Postman, which returns HTTP 401 when authentication failed:
+Call to authentication endpoint with Postman, which returns HTTP 401 when authentication fails:
 
 ![ScreenshotPostmanAuthenticationEndpoint](screenshots/bad_credentials.png)
 
